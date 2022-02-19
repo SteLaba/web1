@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="Stefan Labovic" name="author"> 
+	<meta content="First LabWork from WebProgramming." name="description">
+	<link rel="stylesheet" href="main.css">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<script src="client.js"></script>
+
+	<title>Web Programming - 1st LabWork</title>
+</head>
+<body>
+	<div id="allcontent">
+		<header>
+			<span id="author">
+				Stefan Labovic, P3210, v. 10201
+			</span>
+		</header>
+
+		<table id="page_table">
+			<tr>
+				<td>
+					<img id="task" src="images/task.png" alt="The image of the task.">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p id="enter_values">Enter values:</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table id="vars_table">
+						<tr>
+							<td colspan="2">
+								<p class="variable">X =
+									<label>
+										<input type="button" value="-3" name="xbuttons" id="x1">
+									</label>
+									<label>
+										<input type="button" value="-2" name="xbuttons" id="x2">
+									</label>
+									<label>
+										<input type="button" value="-1" name="xbuttons" id="x3">
+									</label>
+									<label>
+										<input type="button" value="0" name="xbuttons" id="x4">
+									</label>
+									<label>
+										<input type="button" value="1" name="xbuttons" id="x5">
+									</label>
+									<label>
+										<input type="button" value="2" name="xbuttons" id="x6">
+									</label>
+									<label>
+										<input type="button" value="3" name="xbuttons" id="x7">
+									</label>
+									<label>
+										<input type="button" value="4" name="xbuttons" id="x8">
+									</label>
+									<label>
+										<input type="button" value="5" name="xbuttons" id="x9">
+									</label>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<p class="variable">Y =
+									<label for="y"></label>
+									<input type="text" id="y" placeholder="Enter y:">	
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<p class="variable">R =
+									<label>
+										<input type="radio" value="1" name="radio_buttons">1
+									</label>
+									<label>
+										<input type="radio" value="1.5" name="radio_buttons">1.5
+									</label>
+									<label>
+										<input type="radio" value="2" name="radio_buttons">2
+									</label>
+									<label>
+										<input type="radio" value="2.5" name="radio_buttons">2.5
+									</label>
+									<label>
+										<input type="radio" value="3" name="radio_buttons">3
+									</label>
+								</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<button id="submit_button" type="submit">Submit</button>
+							</td>
+							<td>
+								<button id="clear_button" type="submit">Clear</button>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table id="result_table">
+						<tr>
+							<th>X</th>
+		                	<th>Y</th>
+		                 	<th>R</th>
+		                    <th>Result</th>
+		                    <th>Submit time</th>
+		                    <th>Calculation time</th>
+						</tr>
+					</table>	
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

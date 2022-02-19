@@ -1,0 +1,125 @@
+:root {
+	--text_color: #01a4ff;;
+}
+
+body {	
+	background-color: #71d4ff;
+	text-align: center;
+
+    font-family: monospace; /*наследование (шрифт)*/  
+	color: var(--text_color);
+    font-weight: bold;
+
+    margin: 0;
+    padding: 0;
+}
+
+#allcontent { /*селектор идентификаторов*/
+	width: 1000px;
+ 	padding-top: 0px;
+ 	padding-bottom: 0px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+
+	background-image: url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 115%;
+}
+
+
+header {
+	padding:  15px;
+
+	background-color: #81dafb;
+	background-image: url(images/duckey.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 7%;
+
+	border-width: 5px;
+	border-color: white;
+	border-style: solid; 
+
+}
+
+#author {
+	font-family: sans-serif; /* каскадирование */
+	font-size: 1.5em;
+}
+
+#page_table {
+    margin: auto;
+	background-color: #81dafb;
+	padding:  15px;
+
+	border-width: 0px 5px 5px 5px;
+	border-color: white;
+	border-style: solid;
+
+	
+	font-size: 1.2em; 
+}
+
+
+#enter_values {
+	margin: auto;
+	font-family: sans-serif; /* каскадирование */
+
+}
+
+#vars_table {
+	margin: auto;
+	padding: 10px;
+}
+
+.variable {
+	margin: 1px;
+	padding: 10px;
+
+	border-width: 2px;
+	border-color: white;
+	border-style: solid; 
+}
+
+input, button {
+	color: white;
+
+	background-color: #41dafb;
+	border-color: white;
+}
+
+input:hover, button:hover{
+	background-color: #01bafb;
+}
+
+#y::placeholder{
+	color: white;
+}
+
+#submit_button, #clear_button {
+	margin-top: 10px;
+}
+
+
+#result_table {
+	margin: auto;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+#result_table th, #result_table td {
+	margin: 0px;
+	padding: 5px;
+	border-width: 2px;
+	border-color: white;
+	border-style: solid;
+
+}
+
+#clicked_button {
+	background-color: #01bafb;
+	
+	border-color: #ababab white white #ababab;
+	border-style: solid;
+}
