@@ -6,7 +6,7 @@ body {
 	background-color: #71d4ff;
 	text-align: center;
 
-    font-family: monospace; /*наследование (шрифт)*/  
+    font-family: monospace;  
 	color: var(--text_color);
     font-weight: bold;
 
@@ -14,7 +14,7 @@ body {
     padding: 0;
 }
 
-#allcontent { /*селектор идентификаторов*/
+#allcontent { 
 	width: 1000px;
  	padding-top: 0px;
  	padding-bottom: 0px;
@@ -33,7 +33,7 @@ header {
 
 	background-color: #81dafb;
 	background-image: url(images/duckey.png);
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-position: right;
 	background-size: 7%;
 
@@ -44,7 +44,7 @@ header {
 }
 
 #author {
-	font-family: sans-serif; /* каскадирование */
+	font-family: sans-serif; 
 	font-size: 1.5em;
 }
 
@@ -64,7 +64,7 @@ header {
 
 #enter_values {
 	margin: auto;
-	font-family: sans-serif; /* каскадирование */
+	font-family: sans-serif;
 
 }
 
